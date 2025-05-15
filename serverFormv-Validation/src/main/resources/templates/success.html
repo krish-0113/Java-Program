@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Success Page</title>
+</head>
+<body>
+<h1>Welcome to the Success Page</h1>
+
+<!-- ✅ Fixed: Use 'userData' instead of 'UserData' (consistent with controller) -->
+<h2>Username: <span th:text="${userData.userName}"></span></h2>
+<h2>Email: <span th:text="${userData.email}"></span></h2>
+
+</body>
+</html>
